@@ -11,35 +11,7 @@
       font-family: Arial, Helvetica, sans-serif;
       background-color: orange;
     }
- 
-    #video-text-container {
-      position: relative;
-  }
-    #overlay-text {
-      position: absolute;
-      font-size: 20px;
-      top: 150px;
-      left: 10%;
-      width: 80%;
-      line-height: 1.5;
-      display: block;
-      z-index: 1;
-  }
-    #opaque-box {
-      background-color: white; /* This will set the background color to opaque white */
-      opacity: 80%;
-      padding: 20px; /* This will add some padding to the text */
-      text-align: center;
-      position: absolute; /* This sets the position of the element to absolute */
-        
-  }
- 
-  h1 {
-    font-size: 60px;
-  }
-
-
-   /* #homeText {
+  #homeText {
     font-size: 85px;
     color: black;
     width: 80%;
@@ -52,7 +24,7 @@
     /*height: 60%;*/
    
 
-  /*}
+  }
   #paragraphText {
     font-size: 20px;
     color: black;
@@ -67,12 +39,7 @@
     /*background-color: #fff;*/
     /*opacity: 60%;*/
     
-<<<<<<< HEAD
-    
- /* }
-=======
   }
->>>>>>> b0095c61190be4e0065a2ad55343a5ad6d6e2525
   
 
   #homeText, #paragraphText{
@@ -80,7 +47,6 @@
     background-color: white;
     opacity: 80%;
   }
-
   /* Style the header */
   .header {
     background-color: white;

@@ -1,0 +1,80 @@
+html,
+body {
+    margin: 0;
+    /* background: papayawhip; */
+
+}
+
+.carousel {
+    --current-slide: 0;
+    /* we set position relative so absolute position works properly for the buttons */
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 2% auto;
+    display: block;
+    border: 2px solid magenta;
+    width: 1000px;
+  
+  }
+  
+  .carousel-button {
+    /* vertically centering the buttons */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    opacity: 50%;
+  
+    /* basic styling */
+    padding: 0;
+    margin: 0;
+    border-radius: 100%;
+    background-color: white;
+    border: none;
+    /* border: 8px solid limegreen; */
+  
+    font-size: 2.0rem;
+    cursor: pointer;
+  
+    transition: color 0.1s;
+  }
+  
+  .carousel-button:hover {
+    color: rgba(250, 180, 0, 1.0);
+  }
+  
+  .carousel-button_next {
+    /* The "next slide button" will be at the right */
+    right: -10px;
+    /* background-color: #fff; */
+    box-shadow: 0 0 40px 20px #fff;
+    /* box-shadow: 0 0 5px #ffee10; */
+
+    /* box-shadow: 0 0 60px 30px #fff, 0 0 100px 60px #b400ff, 0 0 140px 90px #ff00d4; */
+  
+    /* border: 5px solid blue; */
+  }
+  
+  .carousel-button_previous {
+    /* border: 5px solid magenta; */
+    box-shadow: 0 0 40px 20px #fff;
+    left: -10px;
+  }
+  .slides {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s;
+    transform: translateX(calc(-100% * var(--current-slide)));
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .carousel-button {
+      font-size: 2rem;
+      margin: 1rem;
+    }
+  }
+  
