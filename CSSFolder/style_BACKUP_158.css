@@ -2,7 +2,11 @@
     box-sizing: border-box;
   }
   
-    
+  h1 {
+    padding:1%;
+    text-align: center;
+  }
+  
   body {
       font-family: Arial, Helvetica, sans-serif;
       background-color: orange;
@@ -34,34 +38,7 @@
     font-size: 60px;
   }
 
-  h3 {
-    font-size: 40px;
-    text-align: center;
 
-  }
- .atable p {
-    text-align: left;
-    padding-left: 18px;
-
-  }
-
-  .atable {
-
-    border: 0px;
-    padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    font-size: 20px;
-    width: 100%;
-    /*border-collapse: collapse;*/
-    border-spacing: 50px;
-    /*margin-left: 10%;*/
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    text-align: center;
-    
-}
    /* #homeText {
     font-size: 85px;
     color: black;
@@ -90,24 +67,26 @@
     /*background-color: #fff;*/
     /*opacity: 60%;*/
     
+<<<<<<< HEAD
+    
  /* }
+=======
+  }
+>>>>>>> b0095c61190be4e0065a2ad55343a5ad6d6e2525
   
 
   #homeText, #paragraphText{
 
     background-color: white;
     opacity: 80%;
-  }*/
+  }
 
   /* Style the header */
   .header {
     background-color: white;
     padding: 10px;
-    /*border: 3px solid black;*/
-    /*width: 1400px;
-    margin-right: auto;
-    margin-left: auto;*/
-  text-align: center;
+    border: 3px solid black;
+    text-align: center;
       
     }
   /* Create two unequal columns that float next to each other */
@@ -186,9 +165,9 @@
   
    }
 
-   /*.video-text-container .text-container {
+   .video-text-container .text-container {
     color: magenta;
-   }*/
+   }
 
 /*footer {
   position: absolute;
@@ -221,7 +200,6 @@ footer{
      border: 0px;
       padding: 0px;
       font-family: Arial, Helvetica, sans-serif;
-      background-color: white;
       font-size: 18px;
       width: 100%;
      /* border-collapse: collapse;*/
@@ -229,14 +207,10 @@ footer{
       margin-left: auto;
       margin-right: auto;
       margin-top: 40px;
-      margin-bottom: 10px;
-    
+      margin-bottom: 0px;
       
   }
-  img {
-    width: 100%;
-    /*height: auto;*/
-  }
+  
     
   .leftcolumn {
     float: none; 
